@@ -1,0 +1,180 @@
+/*http://icodemag.com/building-a-landing-page-with-bootstrap-and-jquery/ */
+
+* {
+    box-sizing: border-box;
+    /*outline: 1px solid black;*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", serif;
+}
+
+/* Logo Style */
+
+.logo {
+    font-size: 35px;
+    margin-left: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Cover Image Styles */
+
+.cover {
+    background: no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+.heroText {
+    margin-left: 23%;
+    font-size: 35pt;
+    font-weight: bold;
+}
+
+.heroButton {
+    margin-left: 25%;
+    width: 160px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.downArrow {
+    display: flex;
+    justify-content: center;
+    top: 25vh;
+}
+
+#down {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: black;
+    opacity: 0.9;
+    line-height: 0.5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#down:hover {
+    color: #dc3545;
+    opacity: 0.8;
+}
+
+.bounce {
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    margin-top: -25px;
+    margin-left: -25px;
+    height: 50px;
+    width: 50px;
+    -webkit-animation: bounce 1s infinite;
+    -moz-animation: bounce 1s infinite;
+    -o-animation: bounce 1s infinite;
+    animation: bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 15px;
+    }
+    100% {
+        bottom: 30;
+    }
+}
+
+@-moz-keyframes bounce {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 15px;
+    }
+    100% {
+        bottom: 30;
+    }
+}
+
+@-o-keyframes bounce {
+     0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 15px;
+    }
+    100% {
+        bottom: 30;
+    }
+}
+
+@keyframes bounce {
+     0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 15px;
+    }
+    100% {
+        bottom: 30;
+    }
+}
+
+/* About Section styles */
+
+.hrStyle {
+    width: 100px;
+    border-top: 2px solid red;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.fontSymbolsAbout {
+    font-size 25px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.topGap {
+    padding-top: 10rem;
+}
+
+/* Services section styles */
+.card-img-top {
+    height; 300px;
+}
+
+/* Testimonial section styles */
+
+.revs {
+    padding: 90px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    font-size: 32px;
+}
+
+.carousel-indicators {
+    margin: -20px;
+}
+
+.carousel-indicators li {
+    border: 1px solid #cccccc;
+}
+
+.carousel-indicators .active {
+    background: red;
+}
+
+/* Contact Styles */
+.fontSocial {
+    font-size: 32px;
+}
+
+.return-top-icon {
+    font-size: 24px;
+}

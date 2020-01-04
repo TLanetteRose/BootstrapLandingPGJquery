@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!--Bootstrap CDN-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--Custom CSS Stylesheet and other dependencies-->
+        <link rel="stylesheet" href="/styles/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <title>Bootstrap Landing Page</title>
+    </head>
+    <body>
+
+        <!-- Navbar Section -->
+        <nav class="navbar fixed-to navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand font-weight-bold" href="#"><span><i class="fas fa-swatchbook text-danger logo"></i></span>HipAnglophile</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto font-weight-bold">
+                    <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#about">About</a>
+                    <a class="nav-item nav-link" href="#services">Services</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
+                </div><!--.navbar-nav-->
+                <div class="navbar-text ml-lg-3">
+                    <a href="#" class="btn btn-danger text-white shadow font-weight-bold">Start Today</a>
+                </div> <!-- .navbar-text -->
+            </div><!-- .navbar-collapse -->
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="d-flex align-items-center position-relative vh-100 cover" style="background-image: url(./images/TempleBar082012.jpg);">
+            <div class="container-fluid container-fluid-max">
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                        <h1 class="text-white heroText">Design</h1>
+                        <h1 class="text-white heroText">Launch</h1>
+                        <h1 class="text-white heroText">Support</h1>
+                        <div class="mt-6">
+                            <a class="btn btn-danger text-white heroButton" href="" role="button">More Info</a>
+                        </div><!-- .mt-6 -->
+                    </div><!-- .col-12 -->
+                </div><!-- .row -->
+                <div class="col-12 downArrow"><span id="down"><i class="fas fa-caret-down bounce"></i></span></div>
+            </div> <!-- .container-fluid -->
+        </section><!-- #id-->
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2 class="text-dark text-center topGap font-weight-bold">About Us</h2>
+                <hr class="hrStyle" />
+                <p class="text-muted text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam. Nullam a sollicitudin sapien. Pellentesque ac aliquet massa. Curabitur est tellus,
+                mollis aliquet volutpat nec, vestibulum vel velit. Donec maximus vehicula ligula.</p>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4 mb-3">
+                        <h6><span><i class="fas fa-server text-danger fontSymbolsAbout"></i></span><strong>Secure Servers</strong></h6>
+                        <p class="text-muted">Nullam a sollicitudin sapien. Pellentesque ac aliquet massa. Curabitur est tellus, mollis aliquet volutpat nec,
+                        vestibulum vel velit. Donec maximus vehicula ligula.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3">
+                        <h6><span><i class="fas fa-calendar-times text-danger fontSymbolsAbout"></i></span><strong>Flexible Time</strong></h6>
+                        <p class="text-muted">Nullam a sollicitudin sapien. Pellentesque ac aliquet massa. Curabitur est tellus, mollis
+                            aliquet volutpat nec,
+                            vestibulum vel velit. Donec maximus vehicula ligula.</p>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-3">
+                        <h6><span><i class="fas fas fa-money-check-alt text-danger fontSymbolsAbout"></i></span><strong>Money Saving</strong>
+                        </h6>
+                        <p class="text-muted">Nullam a sollicitudin sapien. Pellentesque ac aliquet massa. Curabitur est tellus, mollis aliquet volutpat nec, vestibulum vel velit. Donec maximus vehicula ligula.</p>
+                    </div>
+                </div>
+            </div><!-- .container -->
+        </section><!-- #about -->
+        <!-- Services Section -->
+        <section id="services" class="bg-light mb-5 pb-5">
+            <div class="container text-center">
+                <h2 class="text-dark topGap font-weight-bold">
+                    Our Services
+                </h2>
+                <hr class="hrStyle" />
+                <p class="text-muted mb-5">
+                In enim non sit irure ut adipisicing laboris et laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </p>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow border-0 h-100">
+                            <a href="#"><img src="./images/mark-804938_1920.jpg" alt="Service" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h5 class="text-danger card-title">Title</h5>
+                                <p class="text-muted card-text">
+                                    Ex cupidatat eu officia consequat incididunt labore occaecat ut veniam labore et cillum id et.
+                                </p><!-- .card-text -->
+                            </div><!-- .card-body -->
+                        </div><!-- .card -->
+                    </div><!-- .col-md-4 -->
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow border-0 h-100">
+                            <a href="#"><img src="./images/mark-804938_1920.jpg" alt="Service" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h5 class="text-danger card-title">Title</h5>
+                                <p class="text-muted card-text">
+                                    Ex cupidatat eu officia consequat incididunt labore occaecat ut veniam labore et cillum id et.
+                                </p><!-- .card-text -->
+                            </div><!-- .card-body -->
+                        </div><!-- .card -->
+                    </div><!-- .col-md-4 -->
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow border-0 h-100">
+                            <a href="#"><img src="./images/mark-804938_1920.jpg" alt="Service" class="card-img-top"></a>
+                            <div class="card-body">
+                                <h5 class="text-danger card-title">Title</h5>
+                                <p class="text-muted card-text">
+                                    Ex cupidatat eu officia consequat incididunt labore occaecat ut veniam labore et cillum id et.
+                                </p><!-- .card-text -->
+                            </div><!-- .card-body -->
+                        </div><!-- .card -->
+                    </div><!-- .col-md-4 -->
+
+                </div> <!-- .row -->
+            </div><!-- .container -->
+        </section><!-- #services -->
+
+        <!-- Testimonial Section -->
+        <section id="testimonial">
+            <div class="container text-center revs">
+                <h2 class="text-dark font-weight-bold">Testimonials</h2>
+                <hr class="hrStyle" />
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                    </ol><!-- .carousel-indicators -->
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active mt-4">
+                            <p>"Est ultricies integer quis auctor elit sed. In nisl nisi scelerisque eu ultrices vitae auctor eu. Velit laoreet id
+                            donec ultrices tincidunt arcu non sodales."</p>
+                            <p class="text-muted">Denise Doe</p>
+                        </div><!-- .carousel-item -->
+
+                        <div class="carousel-item mt-4">
+                            <p>"Egestas integer eget aliquet nibh. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Condimentum lacinia
+                            quis vel eros donec."</p>
+                            <p class="text-muted">Dontay Doe</p>
+                        </div><!-- .carousel-item -->
+
+                        <div class="carousel-item mt-4">
+                            <p>"Egestas integer eget aliquet nibh. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Condimentum lacinia
+                            quis vel eros donec."</p>
+                            <p class="text-muted">Amber Wick</p>
+                        </div><!-- .carousel-item -->
+                    </div><!-- .carousel-inner -->
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-caret-left text-danger"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-caret-right text-danger"></i></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div><!-- .carousel -->
+            </divcl><!-- .container -->
+        </section><!-- #testimonial-->
+
+        <!-- Footer Section -->
+        <footer id="contact">
+            <div class="py-5 bg-light">
+                <div class="container">
+                    <div class="row d-flex justify-content-around">
+                        <div class="col-lg-4 mb-4">
+                            <ul class="contact-info list-unstyled">
+                                <li><span><i class="fas fa-phone text-danger"></i></span><strong>Call Us Today!</strong></li>
+                                <li><a href="tel:123456789" class="ml-3 text-dark"> +00 123 456 789</a></li>
+                                <br/>
+                                <li><span><i class="fas fa-map-marker-alt text-danger"></i></span>123, New Causton</li>
+                                <li><a href="tel:123456789" class="text-dark ml-3">Cranford, NJ 60606</a></li>
+                            </ul><!-- .contact-info -->
+                            <p class="text-muted ml-3">Laborum aute enim consectetur</p>
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <h5>Pages</h5>
+                            <ul class="links list-unstyled">
+                                <li><a href="#" class="text-muted">Home</a></li>
+                                <li><a href="#" class="text-muted">About</a></li>
+                                <li><a href="#" class="text-muted">Services</a></li>
+                                <li><a href="#" class="text-muted">Contact</a></li>
+                            </ul><!-- .links -->
+                        </div>
+                        <div class="col-lg-4 mb-4">
+                            <h5>Favorites</h5>
+                            <ul class="links list-unstyled">
+                                <li><a href="#" class="text-muted">Minim labore nulla</a></li>
+                                <li><a href="#" class="text-muted">ulla qui nisi</a></li>
+                                <li><a href="#" class="text-muted">Iris Vor Arnims</a></li>
+                                <li><a href="#" class="text-muted">Consectetur cupidatat</a></li>
+                            </ul><!-- .links -->
+                            <p class="ml-3"><a href="#home" class="text-danger"><i class="fas fa-caret-up return-top-icon"></i>Back To Top</a></p>
+                        </div>
+                    </div><!-- .row -->
+
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class=""><i class="fab fa-facebook-square text-danger mr-3 fontSocial"></i></a>
+                        <a href="#" class=""><i class="fab fa-twitter-square text-danger mr-3 fontSocial"></i></a>
+                        <a href="#" class=""><i class="fab fa-github-square text-danger fontSocial"></i></a>
+                    </div>
+                </div><!-- .container -->
+            </div>
+            <div class="py-3 bg-dark text-white">
+                <div class="text-center">
+                    <p>&copy; 2020 HipAnglophile. All rights reserved. </p>
+                    <p>Design by T.Lanette for <a href="www.rebel-cow.com">Rebel-Cow Designs</a> &copy; 2020</p>
+                </div>
+            </div>
+        </footer><!-- .contact -->
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="/scripts/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
