@@ -23,7 +23,7 @@ body {
 /* Cover Image Styles */
 
 .heroImage {
-    background-image: url('/images/TempleBar082012.jpg');
+    background-image: url(../images/TempleBar082012.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
