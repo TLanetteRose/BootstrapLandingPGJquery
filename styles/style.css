@@ -162,7 +162,7 @@ body {
 }
 
 .carousel-indicators {
-    margin: -40px;
+    margin-top: 10px;
 }
 
 .carousel-indicators li {
