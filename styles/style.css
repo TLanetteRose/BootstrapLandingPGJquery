@@ -23,6 +23,8 @@ body {
 /* Cover Image Styles */
 
 .cover {
+    background-size: contain;
+    background-position: 0 60%;
     background: no-repeat center/cover;
     background-attachment: fixed;
 }
@@ -159,7 +161,7 @@ body {
 }
 
 .carousel-indicators {
-    margin: -30px;
+    margin: -40px;
 }
 
 .carousel-indicators li {
