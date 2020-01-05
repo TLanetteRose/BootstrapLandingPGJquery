@@ -22,11 +22,12 @@ body {
 
 /* Cover Image Styles */
 
-.cover {
-    background-size: contain;
-    background-position: 0 60%;
-    background: no-repeat center/cover;
+.heroImage {
+    background-image: url('/images/TempleBar082012.jpg');
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .heroText {
